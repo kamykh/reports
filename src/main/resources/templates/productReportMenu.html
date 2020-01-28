@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Product Menu</title>
+    <link rel="stylesheet" type="text/css" href="reportPointOfSales.css">
+    <link rel="stylesheet" type="text/css" href="login-form.css">
+    <link rel="stylesheet" type="text/css" href="components.css">
+    <link rel="stylesheet" type="text/css" href="mainMenu.css">
+</head>
+<body>
+
+<ul>
+    <li><a class="active" href="/mainPage">Home</a></li>
+    <li><a class="active">Report:</a></li>
+    <li><a href="/reportThatYouCanSeePage">RTCBS</a></li>
+    <li>
+        <a href="/UserReport">User Statistics</a></li>
+    <li><a href="pointOfSalesPage">Point of sale statistics</a></li>
+    <li><a href="/productReportMenu">Product statistics</a></li>
+</ul>
+
+
+<center>
+<form action="/showProductsFromRepository" method="post">
+    <input type="submit" class="buttonPoint" value="showProductsFromRepository">
+</form>
+<form action="/showProductsFromRepository" method="post">
+    <input type="submit" class="buttonPoint" value="Show product sell">
+</form>
+<form action="/showProductsFromRepository" method="post">
+    <input type="submit" class="buttonPoint" value="Average sell">
+</form>
+<form action="/showProductsFromRepository" method="post">
+    <input type="submit" class="buttonPoint" value="Show income from product">
+</form>
+<form action="/showProductsFromRepository" method="post">
+    <input type="submit" class="buttonPoint" value="Show general stats for product">
+</form>
+</center>
+
+</body>
+</html>

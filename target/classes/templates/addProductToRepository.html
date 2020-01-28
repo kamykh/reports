@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>addProductToRepository.html</title>
+    <link rel="stylesheet" type="text/css" href="mainMenu.css">
+    <link rel="stylesheet" type="text/css" href="reportPointOfSales.css">
+</head>
+<body>
+
+<ul>
+    <li><a class="active" href="/mainPage">Home</a></li>
+    <li><a class="active">Report:</a></li>
+    <li><a href="/reportThatYouCanSeePage">RTCBS</a></li><li>
+    <a href="/UserReport">User Statistics</a></li>
+    <li><a href="pointOfSalesPage">Point of sale statistics</a></li>
+    <li><a href="/productReportMenu">Product statistics</a></li>
+</ul>
+
+<form method="post">
+    <div>idPointOfSales: </div>
+    <input type="text" placeholder="idPointOfSales" name="id" class="buttonPoint" th:field="*{userModel.idPointOfSales}"><br><br>
+    <div>productName: </div>
+    <input type="text" placeholder="productName" name="name" class="buttonPoint" th:field="*{userModel.productName}"><br><br>
+    <div>priceForOneProduct: </div>
+    <input type="text" placeholder="priceForOneProduct" name="surname" class="buttonPoint" th:field="*{userModel.priceForOneProduct}"><br><br>
+    <div>amountOfProduct: </div>
+    <input type="text" placeholder="amountOfProduct" name="position" class="buttonPoint" th:field="*{userModel.amountOfProduct}"><br><br>
+    <input type="submit" class="buttonPointOk" value="OK">
+</form>
+
+</body>
+</html>

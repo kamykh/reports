@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en"  xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="login-form.css">
+    <link rel="stylesheet" type="text/css" href="components.css">
+    <link rel="stylesheet" type="text/css" href="mainMenu.css">
+</head>
+<body>
+
+<ul>    <li><a class="active" href="/mainPage">Home</a></li>
+    <li><a class="active">Report:</a></li>
+    <li><a href="/reportThatYouCanSeePage">RTCBS</a></li><li>
+        <a href="/UserReport">User Statistics</a></li>
+    <li><a href="pointOfSalesPage">Point of sale statistics</a></li>
+    <li><a href="/productReportMenu">Product statistics</a></li>
+</ul>
+
+<form action="/UserReport" method="post" id="user-report-form">
+<center>
+    <div class="container">
+
+
+        <input type="number" placeholder="userID" name="userID" th:field="*{userID.userID}" required>
+        <br>
+        <button type="submit">OK</button>
+
+    </div>
+</center>
+</form>
+<center>
+<form method="get" >
+    <button formaction="/mainPage">Wróć do Menu</button>
+</form>
+</center>
+
+    <div class="container" style="background-color:#989898">
+
+    </div>
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>ReportThatYouCanSee</title>
+
+    <link rel="stylesheet" type="text/css" href="reportThatYouCanSeePage-form.css">
+
+    <link rel="stylesheet" type="text/css" href="login-form.css">
+    <link rel="stylesheet" type="text/css" href="components.css">
+</head>
+<style>
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+        font-family: "Calibri", Calibri, sans-serif;
+    }
+
+    li {
+        float: left;
+        border-right:1px solid #bbb;
+    }
+
+    li:last-child {
+        border-right: none;
+    }
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    li a:hover:not(.active) {
+        background-color: #989898;
+    }
+
+    .active {
+        background-color: #989898;
+    }
+</style>
+</head>
+<body>
+
+<ul>
+    <li><a class="active" href="/mainPage">Home</a></li>
+    <li><a class="active">Report:</a></li>
+    <li><a href="/reportThatYouCanSeePage">RTCBS</a></li><li>
+    <a href="/UserReport">User Statistics</a></li>
+    <li><a href="pointOfSalesPage">Point of sale statistics</a></li>
+    <li><a href="/productReportMenu">Product statistics</a></li>
+</ul>
+
+<form action="/reportThatYouCanSeePage" method="post" id="reportThatYouCanSeePage-form">
+    <div>
+        <img src="logo.png" alt="Logo" class="logo">
+    </div><br>
+    <a href="/allReportThatYouCanSee" class="clickbtn">allReportThatYouCanSee</a><br><br><br>
+    <a href="/logout" class="buttonLogOut">Wyloguj</a>
+
+</form>
+</body>
+</html>

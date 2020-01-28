@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>salesFromRepository</title>
+    <link rel="stylesheet" type="text/css" href="mainMenu.css">
+    <link rel="stylesheet" type="text/css" href="reportPointOfSales.css">
+</head>
+<body>
+
+<ul>
+    <li><a class="active" href="/mainPage">Home</a></li>
+    <li><a class="active">Report:</a></li>
+    <li><a href="/reportThatYouCanSeePage">RTCBS</a></li><li>
+    <a href="/UserReport">User Statistics</a></li>
+    <li><a href="pointOfSalesPage">Point of sale statistics</a></li>
+    <li><a href="/productReportMenu">Product statistics</a></li>
+</ul>
+<table class="table">
+    <thead>
+    <tr>
+        <th> idPointOfSales </th>
+        <th> productName </th>
+        <th> amountOfProduct </th>
+        <th> priceForOneProduct </th>
+        <th> totalPrice </th>
+        <th> dateOfSell </th>
+
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="product : ${allProducts}">
+        <td><span th:text="${product.idPointOfSales}"></span></td>
+        <td><span th:text="${product.productName}"> </span></td>
+        <td><span th:text="${product.amountOfProduct}">  </span></td>
+        <td><span th:text="${product.priceForOneProduct}">  </span></td>
+        <td><span th:text="${product.totalPrice}">  </span></td>
+        <td><span th:text="${product.dateOfSell}">  </span></td>
+    </tr>
+    </tbody>
+</table>
+
+</body>
+</html>

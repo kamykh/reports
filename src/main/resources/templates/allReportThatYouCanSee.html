@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Raport</title>
+
+    <link rel="stylesheet" type="text/css" href="allReportThatYouCanSee-form.css">
+    <link rel="stylesheet" type="text/css" href="login-form.css">
+    <link rel="stylesheet" type="text/css" href="components.css">
+</head>
+<style>
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 50%;
+  border: 1px solid #ddd;
+}
+
+th, td {
+  text-align: center;
+  padding: 16px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-family: "Calibri", Calibri, sans-serif;
+}
+
+li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #989898;
+}
+
+.active {
+    background-color: #989898;
+}
+</style>
+<body>
+<ul>
+    <li><a class="active" href="/mainPage">Home</a></li>
+    <li><a class="active">Report:</a></li>
+    <li><a href="/reportThatYouCanSeePage">RTCBS</a></li><li>
+    <a href="/UserReport">User Statistics</a></li>
+    <li><a href="pointOfSalesPage">Point of sale statistics</a></li>
+    <li><a href="/productReportMenu">Product statistics</a></li>
+</ul>
+<center>  <h1>AllReportThatYouCanSee</h1></center>
+
+<div id="allReportThatYouCanSee-form-wrapper">
+
+    <center> <table >
+        <tr>
+            <th>Login </th>
+            <th>PointOfSales </th>
+            <th>WhenWasLogged</th>
+        </tr>
+        <form action="/allReportThatYouCanSee" method="post" id="allReportThatYouCanSee-form">
+
+            <div th:each="reportThatYouCanSee : ${allReportThatYouCanSee}">
+
+                <td>  <div  th:text="'  '+${reportThatYouCanSee.login}"></div></td>
+
+                <td>  <div  th:text="' '+${reportThatYouCanSee.pointOfSales}"></div></td>
+
+                <td>   <div  th:text="' '+${reportThatYouCanSee.whenWasLogged}"></div></td><tr></tr>
+
+            </div>
+
+        </form>
+
+    </table></center></div>
+
+</body>
+
+</html>

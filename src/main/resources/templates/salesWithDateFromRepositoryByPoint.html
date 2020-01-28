@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>salesWithDateFromRepositoryByPoint</title>
+    <link rel="stylesheet" type="text/css" href="mainMenu.css">
+    <link rel="stylesheet" type="text/css" href="reportPointOfSales.css">
+</head>
+<body>
+
+<ul>
+    <li><a class="active" href="/mainPage">Home</a></li>
+    <li><a class="active">Report:</a></li>
+    <li><a href="/reportThatYouCanSeePage">RTCBS</a></li><li>
+    <a href="/UserReport">User Statistics</a></li>
+    <li><a href="pointOfSalesPage">Point of sale statistics</a></li>
+    <li><a href="/productReportMenu">Product statistics</a></li>
+</ul>
+<table class="table">
+    <thead>
+    <tr>
+        <th> idPointOfSales </th>
+        <th> productName </th>
+        <th> amountOfProduct </th>
+        <th> priceForOneProduct </th>
+        <th> totalPrice </th>
+        <th> dateOfSell </th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="product : ${allProducts}">
+        <td><span th:text="${product[0]}"></span></td>
+        <td><span th:text="${product[1]}"> </span></td>
+        <td><span th:text="${product[2]}">  </span></td>
+        <td><span th:text="${product[3]}">  </span></td>
+        <td><span th:text="${product[4]}">  </span></td>
+        <td><span th:text="${product[5]}">  </span></td>
+    </tr>
+    </tbody>
+</table>
+
+</body>
+</html>

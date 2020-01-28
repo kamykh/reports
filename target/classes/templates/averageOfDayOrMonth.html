@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Average of day or month</title>
+    <link rel="stylesheet" type="text/css" href="mainMenu.css">
+</head>
+
+</head>
+<body>
+
+<ul>
+    <li><a class="active" href="/mainPage">Home</a></li>
+    <li><a class="active">Report:</a></li>
+    <li><a href="/reportThatYouCanSeePage">RTCBS</a></li><li>
+    <a href="/UserReport">User Statistics</a></li>
+    <li><a href="pointOfSalesPage">Point of sale statistics</a></li>
+    <li><a href="/productReportMenu">Product statistics</a></li>
+</ul>
+<form action="/showAverageOfDay" method="post">
+    <input type="submit" class="button-box" value="showAverageOfDay">
+    <input type="text" placeholder="idPointOfSales" name="id">
+    <input type="date" placeholder="firstDay" name="firstDay">
+    <input type="date" placeholder="secondDay" name="secondDay">
+</form>
+<form action="/showAverageOfMonth" method="post">
+    <input type="submit" class="button-box" value="showAverageOfMonth">
+    <input type="text" placeholder="idPointOfSales" name="id">
+    <input type="date" placeholder="firstMonth" name="firstMonth">
+    <input type="date" placeholder="secondMonth" name="secondMonth">
+</form>
+
+</body>
+</html>

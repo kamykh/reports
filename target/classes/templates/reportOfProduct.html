@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Report of product</title>
+    <link rel="stylesheet" type="text/css" href="mainMenu.css">
+    <link rel="stylesheet" type="text/css" href="reportPointOfSales.css">
+</head>
+<body>
+
+<ul>
+    <li><a class="active" href="/mainPage">Home</a></li>
+    <li><a class="active">Report:</a></li>
+    <li><a href="/reportThatYouCanSeePage">RTCBS</a></li><li>
+    <a href="/UserReport">User Statistics</a></li>
+    <li><a href="pointOfSalesPage">Point of sale statistics</a></li>
+    <li><a href="/productReportMenu">Product statistics</a></li>
+</ul>
+
+<form action="/showProductsFromRepository" method="post">
+    <input type="submit" class="buttonPoint" value="showProductsFromRepository">
+</form>
+<form action="/showSalesWithDateFromRepository" method="post">
+    <input type="submit" class="buttonPoint" value="showSalesWithDateFromRepository">
+</form>
+<form action="/showSalesWithDateFromRepositoryByPoint" method="post">
+    <input type="submit" class="buttonPoint" value="showSalesWithDateFromRepositoryByPoint">
+    <input type="text" class="inputPoint" placeholder="idPointOfSales" name="id">
+</form>
+<form action="/showProductsFromRepositoryByPoint" method="post">
+    <input type="submit" class="buttonPoint" value="showProductsFromRepositoryByPoint">
+    <input type="text" class="inputPoint" placeholder="idPointOfSales" name="id">
+</form>
+
+</body>
+</html>

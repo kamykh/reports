@@ -1,0 +1,31 @@
+#hello-text{
+ color: black;
+ font-size: 24px;
+  border: 1px solid black;
+  box-shadow: 5px 5px 10px;
+}
+#raport-form-wrapper {
+         text-align: center;
+     }
+     .button {
+         color: black;
+         font-size: 24px;
+         border: 1px solid white;
+         padding: 5px 10px;
+         text-decoration: none;
+         box-shadow: inset 5px 5px 10px;
+         cursor: progress;
+         }
+.text-list{
+ color: black;
+
+     border-radius: 25px;
+        font-size: 20px;
+        border: 1px solid white;
+        padding: 5px 10px;
+        text-decoration: none;
+        box-shadow: inset 5px 5px 10px;
+
+         margin: 10px auto;
+         text-align: center;
+}

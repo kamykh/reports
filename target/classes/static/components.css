@@ -1,0 +1,31 @@
+.text-field {
+    border-radius: 25px;
+    border: 2px solid #000000;
+    padding: 5px 10px;
+    text-align: center;
+    height: 35px;
+    font-size: 20px;
+    width: 400px;
+    display: block;
+    margin: 10px auto;
+    font-family: Calibri, serif;
+}
+
+
+.button-box {
+    border-radius: 25px;
+    border: 2px solid #C0C0C0;
+    padding: 5px 10px;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    -webkit-transition: 1s;
+    transition: 1s;
+    display: block;
+    margin: 10px auto;
+}
+.button-box:hover {
+    background-color: #000000;
+    color: white;
+}

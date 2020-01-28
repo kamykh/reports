@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Raport</title>
+    <link rel="stylesheet" type="text/css" href="raport-form.css">
+</head>
+<body>
+<center><p id="hello-text"><b>Wszystkie raporty</b></p></center>
+<div id="raport-form-wrapper">
+    <form action="/allRaport" method="post" id="raport-form">
+        <div th:each="raport : ${allRaport}">
+            <div  th:text="'Login: '+${raport.login}"></div>
+            <div  th:text="'PointOfSales: '+${raport.pointOfSales}"></div>
+            <div  th:text="'WhenWasLogged: '+${raport.whenWasLogged}"></div><br>
+        </div>
+    </form>
+</div>
+</body>
+</html>
