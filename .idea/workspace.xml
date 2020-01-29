@@ -2,54 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74a6388d-8d91-4087-94db-0fcf5754bda8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/controllers/ProductReportController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/dao/IProductReportDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/dao/impl/ProductReportDAOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/productReportMenu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/services/IProductReportService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/services/impl/ProductReportServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/showSaleThatDay.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/ReportUserPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/ReportUserPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/UserReportPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/UserReportPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/addProductToRepository.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/addProductToRepository.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/allReportThatYouCanSee.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/allReportThatYouCanSee.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/averageOfDay.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/averageOfDay.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/averageOfDayOrMonth.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/averageOfDayOrMonth.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/averageOfMonth.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/averageOfMonth.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/loginPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/loginPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/mainPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/mainPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/pointOfSalesPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/pointOfSalesPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/productsFromRepositoryByPoint.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/productsFromRepositoryByPoint.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/reportOfProduct.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/reportOfProduct.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/reportThatYouCanSeePage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/reportThatYouCanSeePage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/salesFromRepository.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/salesFromRepository.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/salesGroupedByProductAndPoint.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/salesGroupedByProductAndPoint.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/salesWithDateFromRepositoryByPoint.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/salesWithDateFromRepositoryByPoint.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/Raport-master.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/raport-project.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/edu/wszib/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/edu/wszib/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/edu/wszib/SessionObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/edu/wszib/SessionObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/edu/wszib/model/RepositoryPointOfSales.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/edu/wszib/model/RepositoryPointOfSales.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/edu/wszib/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/edu/wszib/model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/edu/wszib/rest/impl/RepositoryPointOfSalesRestImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/edu/wszib/rest/impl/RepositoryPointOfSalesRestImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/edu/wszib/rest/response/RepositoryPointOfSalesResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/edu/wszib/rest/response/RepositoryPointOfSalesResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/ReportUserPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/ReportUserPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/UserReportPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/UserReportPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/addProductToRepository.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/addProductToRepository.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/allReportThatYouCanSee.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/allReportThatYouCanSee.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/averageOfDay.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/averageOfDay.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/averageOfDayOrMonth.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/averageOfDayOrMonth.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/averageOfMonth.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/averageOfMonth.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/loginPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/loginPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/mainPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/mainPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/pointOfSalesPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/pointOfSalesPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/productsFromRepositoryByPoint.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/productsFromRepositoryByPoint.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/reportOfProduct.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/reportOfProduct.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/reportThatYouCanSeePage.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/reportThatYouCanSeePage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/salesFromRepository.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/salesFromRepository.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/salesGroupedByProductAndPoint.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/salesGroupedByProductAndPoint.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/salesWithDateFromRepositoryByPoint.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/salesWithDateFromRepositoryByPoint.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/configuration/AppConfigurtation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/configuration/AppConfigurtation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/controllers/ProductReportController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/controllers/ProductReportController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/dao/IProductReportDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/dao/IProductReportDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/dao/impl/ProductReportDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/dao/impl/ProductReportDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/productReportMenu.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/productReportMenu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/edu/wszib/configuration/AppConfigurtation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/edu/wszib/configuration/AppConfigurtation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/edu/wszib/controllers/ProductReportController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/edu/wszib/controllers/ProductReportController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/productReportMenu.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/productReportMenu.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,9 +23,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -180,10 +144,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="taa" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="677" y="179" key="#App" timestamp="1580144421548">
+    <state x="677" y="179" key="#App" timestamp="1580309853137">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="677" y="179" key="#App/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1580144421548" />
+    <state x="677" y="179" key="#App/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1580309853137" />
     <state x="677" y="179" key="#App/0.0.1920.1040@0.0.1920.1040" timestamp="1579611713307" />
     <state x="516" y="279" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1579798712348">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -193,9 +157,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579611497981" />
-    <state x="285" y="234" key="#com.intellij.ide.util.MemberChooser" timestamp="1579746479272">
+    <state x="285" y="234" key="#com.intellij.ide.util.MemberChooser" timestamp="1580299264452">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="285" y="234" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1580299264452" />
     <state x="285" y="234" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1579746479272" />
     <state x="808" y="410" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1580137497660">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -222,25 +187,25 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1579815687328" />
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1580145707499">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1580309855534">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1580145707499" />
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1580309855534" />
     <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579817547534" />
-    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1580145707499">
+    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1580309855534">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1580145707499" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1580309855534" />
     <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579817547533" />
-    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1580145707499">
+    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1580309855534">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1580145707499" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1580309855534" />
     <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579817547533" />
-    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1580145707499">
+    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1580309855534">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1580145707499" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1580309855534" />
     <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579817547533" />
     <state width="938" height="348" key="GridCell.Tab.1.bottom" timestamp="1579621150409">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -258,10 +223,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="938" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579621150409" />
-    <state x="656" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1580220591533">
+    <state x="656" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1580293893989">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1580220591533" />
+    <state x="656" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1580293893989" />
     <state x="656" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579720186762" />
     <state x="603" y="136" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1579793772267">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -271,9 +236,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="595" y="441" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1579800417001" />
-    <state x="392" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1579811493014">
+    <state x="392" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1580303386995">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="392" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1580303386995" />
     <state x="392" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1579811493014" />
   </component>
 </project>

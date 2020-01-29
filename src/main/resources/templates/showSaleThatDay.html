@@ -1,4 +1,13 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>a<!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
@@ -20,26 +29,16 @@
     <li><a href="/productReportMenu">Product statistics</a></li>
 </ul>
 
+<table>
+    <thead>Product sold that day:</thead>
+    <tbody>
+    <tr> <span th:each="date : ${date}"></span> </tr>
+        <td><span th:text="${date[0]}"></span></td>
+        <td><span th:text="${date[1]}"></span></td>
+    </tbody>
 
-<center>
-<form action="/showProductsFromRepository" method="post">
-    <input type="submit" class="buttonPoint" value="showProductsFromRepository">
-</form>
-<form action="/showSaleThatDay" method="post">
-    <input type="date" placeholder="date" th:name="date">
-    <input type="submit" class="buttonPoint" value="Show product sell">
 
-</form>
-<form action="/showProductsFromRepository" method="post">
-    <input type="submit" class="buttonPoint" value="Average sell">
-</form>
-<form action="/showProductsFromRepository" method="post">
-    <input type="submit" class="buttonPoint" value="Show income from product">
-</form>
-<form action="/showProductsFromRepository" method="post">
-    <input type="submit" class="buttonPoint" value="Show general stats for product">
-</form>
-</center>
+</table>
 
 </body>
 </html>
