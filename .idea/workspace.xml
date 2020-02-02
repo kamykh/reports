@@ -3,13 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="74a6388d-8d91-4087-94db-0fcf5754bda8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/controllers/PointOfSalesRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/controllers/PointOfSalesRestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/controllers/ProductReportController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/controllers/ProductReportController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/showIncome.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/showIncome.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/showSaleThatDay.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/showSaleThatDay.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/edu/wszib/controllers/ProductReportController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/edu/wszib/controllers/ProductReportController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/showIncome.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/showIncome.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/showSaleThatDay.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/showSaleThatDay.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,10 +155,10 @@
     </state>
     <state x="285" y="234" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1580661252232" />
     <state x="285" y="234" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1579746479272" />
-    <state x="808" y="410" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1580663878862">
+    <state x="808" y="410" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1580664328545">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="808" y="410" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1580663878862" />
+    <state x="808" y="410" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1580664328545" />
     <state x="808" y="410" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579611521346" />
     <state x="276" y="406" width="408" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1579611605374">
       <screen x="0" y="0" width="1920" height="1040" />
