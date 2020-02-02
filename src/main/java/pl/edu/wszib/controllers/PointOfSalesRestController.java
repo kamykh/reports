@@ -37,4 +37,5 @@ public class PointOfSalesRestController {
         reportThatYouCanSeeServiceResponse.setReportThatYouCanSees(reportThatYouCanSees);
         return  reportThatYouCanSeeServiceResponse;
     }
+
 }

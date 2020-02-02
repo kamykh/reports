@@ -2,24 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74a6388d-8d91-4087-94db-0fcf5754bda8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/services/impl/FormattingDate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/showIncome.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/showSaleBetween.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/showStats.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/controllers/PointOfSalesRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/controllers/PointOfSalesRestController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/controllers/ProductReportController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/controllers/ProductReportController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/dao/IProductReportDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/dao/IProductReportDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/dao/impl/ProductReportDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/dao/impl/ProductReportDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/services/IProductReportService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/services/IProductReportService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/services/impl/ProductReportServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/services/impl/ProductReportServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/productReportMenu.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/productReportMenu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/showIncome.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/showIncome.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/showSaleThatDay.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/showSaleThatDay.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pl/edu/wszib/controllers/ProductReportController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/edu/wszib/controllers/ProductReportController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/edu/wszib/dao/IProductReportDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/edu/wszib/dao/IProductReportDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/edu/wszib/dao/impl/ProductReportDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/edu/wszib/dao/impl/ProductReportDAOImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/edu/wszib/services/IProductReportService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/edu/wszib/services/IProductReportService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/edu/wszib/services/impl/ProductReportServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/edu/wszib/services/impl/ProductReportServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/productReportMenu.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/productReportMenu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/showIncome.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/showIncome.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/showSaleThatDay.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/showSaleThatDay.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -155,10 +144,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="taa" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="677" y="179" key="#App" timestamp="1580661749428">
+    <state x="677" y="179" key="#App" timestamp="1580663580236">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="677" y="179" key="#App/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1580661749428" />
+    <state x="677" y="179" key="#App/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1580663580236" />
     <state x="677" y="179" key="#App/0.0.1920.1040@0.0.1920.1040" timestamp="1579611713307" />
     <state x="516" y="279" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1579798712348">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -200,25 +189,25 @@
     </state>
     <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1580378503995" />
     <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1579815687328" />
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1580661751523">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1580663585781">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1580661751523" />
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1580663585781" />
     <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579817547534" />
-    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1580661751523">
+    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1580663585781">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1580661751523" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1580663585781" />
     <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579817547533" />
-    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1580661751523">
+    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1580663585781">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1580661751523" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1580663585781" />
     <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579817547533" />
-    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1580661751523">
+    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1580663585781">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1580661751523" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1580663585781" />
     <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579817547533" />
     <state width="938" height="348" key="GridCell.Tab.1.bottom" timestamp="1579621150409">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -240,10 +229,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="161" key="SettingsEditor/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1580378184311" />
-    <state x="656" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1580293893989">
+    <state x="656" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1580663629220">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1580293893989" />
+    <state x="656" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1580663629220" />
     <state x="656" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579720186762" />
     <state x="603" y="136" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1579793772267">
       <screen x="0" y="0" width="1920" height="1040" />
