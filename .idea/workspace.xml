@@ -2,18 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74a6388d-8d91-4087-94db-0fcf5754bda8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/services/IProductReportService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/services/impl/ProductReportServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/showSaleThatDay.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/services/impl/FormattingDate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/showIncome.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/showSaleBetween.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/showStats.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/configuration/AppConfigurtation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/configuration/AppConfigurtation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/controllers/ProductReportController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/controllers/ProductReportController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/dao/IProductReportDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/dao/IProductReportDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/dao/impl/ProductReportDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/dao/impl/ProductReportDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/services/IProductReportService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/services/IProductReportService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/services/impl/ProductReportServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/services/impl/ProductReportServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/productReportMenu.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/productReportMenu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/edu/wszib/configuration/AppConfigurtation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/edu/wszib/configuration/AppConfigurtation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/showSaleThatDay.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/showSaleThatDay.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pl/edu/wszib/controllers/ProductReportController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/edu/wszib/controllers/ProductReportController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/edu/wszib/dao/IProductReportDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/edu/wszib/dao/IProductReportDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/edu/wszib/dao/impl/ProductReportDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/edu/wszib/dao/impl/ProductReportDAOImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/edu/wszib/services/IProductReportService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/edu/wszib/services/IProductReportService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/edu/wszib/services/impl/ProductReportServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/edu/wszib/services/impl/ProductReportServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/productReportMenu.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/productReportMenu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/showSaleThatDay.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/showSaleThatDay.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +30,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
         <option value="HTML File" />
       </list>
     </option>
@@ -54,15 +61,17 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579437606075" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/templates" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="experimental" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Administrator\Desktop\Raport-master(4)\Raport-master\src\main\resources\static" />
-      <recent name="C:\Users\Administrator\Desktop\Raport-master(4)\Raport-master\src\main\resources\static\static" />
+      <recent name="C:\Users\Administrator\Desktop\Raport-master(4)\Raport-master\src\main\resources" />
       <recent name="C:\Users\Administrator\Desktop\Raport-master(4)\Raport-master\src\main\resources\templates" />
-      <recent name="C:\Users\Administrator\Desktop\Raport-master(4)\Raport-master\src\main\java\pl\edu\wszib\controllers" />
-      <recent name="C:\Users\Administrator\Desktop\Raport-master(4)\Raport-master\src\main\java\pl\edu\wszib\model" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="pl.edu.wszib.dao.impl" />
@@ -71,10 +80,12 @@
       <recent name="pl.edu.wszib.services.impl" />
       <recent name="pl.edu.wszib.rest.response" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Filip Kamiński\Desktop\projekt\Raport\src\main\resources\templates" />
       <recent name="C:\Users\Administrator\Desktop\Raport-master(4)\Raport-master\src\main\resources\static" />
-      <recent name="C:\Users\Administrator\Desktop\Raport-master(4)\Raport-master\src\main\resources" />
+      <recent name="C:\Users\Administrator\Desktop\Raport-master(4)\Raport-master\src\main\resources\static\static" />
       <recent name="C:\Users\Administrator\Desktop\Raport-master(4)\Raport-master\src\main\resources\templates" />
+      <recent name="C:\Users\Administrator\Desktop\Raport-master(4)\Raport-master\src\main\java\pl\edu\wszib\controllers" />
     </key>
   </component>
   <component name="RunManager">
@@ -144,10 +155,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="taa" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="677" y="179" key="#App" timestamp="1580309853137">
+    <state x="677" y="179" key="#App" timestamp="1580661749428">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="677" y="179" key="#App/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1580309853137" />
+    <state x="677" y="179" key="#App/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1580661749428" />
     <state x="677" y="179" key="#App/0.0.1920.1040@0.0.1920.1040" timestamp="1579611713307" />
     <state x="516" y="279" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1579798712348">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -157,10 +168,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579611497981" />
-    <state x="285" y="234" key="#com.intellij.ide.util.MemberChooser" timestamp="1580299264452">
+    <state x="285" y="234" key="#com.intellij.ide.util.MemberChooser" timestamp="1580661252232">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="285" y="234" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1580299264452" />
+    <state x="285" y="234" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1580661252232" />
     <state x="285" y="234" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1579746479272" />
     <state x="808" y="410" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1580137497660">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -175,37 +186,39 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="210" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579816158767" />
-    <state x="690" y="268" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1579801203517">
+    <state x="690" y="268" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1580371801265">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="690" y="268" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1580371801265" />
     <state x="690" y="268" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579801203516" />
     <state x="357" y="119" width="1121" height="809" key="CommitChangelistDialog2" timestamp="1579800408825">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="357" y="119" width="1121" height="809" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1579800408825" />
-    <state x="740" y="276" key="FileChooserDialogImpl" timestamp="1579815687328">
+    <state x="740" y="276" key="FileChooserDialogImpl" timestamp="1580378503995">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1580378503995" />
     <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1579815687328" />
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1580309855534">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1580661751523">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1580309855534" />
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1580661751523" />
     <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579817547534" />
-    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1580309855534">
+    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1580661751523">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1580309855534" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1580661751523" />
     <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579817547533" />
-    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1580309855534">
+    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1580661751523">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1580309855534" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1580661751523" />
     <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579817547533" />
-    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1580309855534">
+    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1580661751523">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1580309855534" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1580661751523" />
     <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579817547533" />
     <state width="938" height="348" key="GridCell.Tab.1.bottom" timestamp="1579621150409">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -223,6 +236,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="938" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579621150409" />
+    <state x="461" y="161" key="SettingsEditor" timestamp="1580378184311">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="161" key="SettingsEditor/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1580378184311" />
     <state x="656" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1580293893989">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -236,6 +253,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="595" y="441" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1579800417001" />
+    <state x="342" y="214" key="new project wizard" timestamp="1580378530434">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="342" y="214" key="new project wizard/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1580378530434" />
+    <state x="702" y="148" key="refactoring.ChangeSignatureDialog" timestamp="1580649197932">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="702" y="148" key="refactoring.ChangeSignatureDialog/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1580649197932" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1580655976165">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1580655976165" />
     <state x="392" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1580303386995">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

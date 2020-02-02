@@ -29,12 +29,18 @@
     <li><a href="/productReportMenu">Product statistics</a></li>
 </ul>
 
-<table>
-    <thead>Product sold that day:</thead>
+<table class = "table">
+    <thead>
+    <tr>
+        <th><center>Product Name</center> </th>
+        <th> <center>Total Quantity Sold chosen day</center> </th>
+    </tr>
+    </thead>
     <tbody>
-    <tr> <span th:each="date : ${date}"></span> </tr>
+    <tr th:each="date : ${list}">
         <td><span th:text="${date[0]}"></span></td>
         <td><span th:text="${date[1]}"></span></td>
+    </tr>
     </tbody>
 
 

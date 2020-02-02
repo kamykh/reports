@@ -23,22 +23,29 @@
 
 <center>
 <form action="/showProductsFromRepository" method="post">
-    <input type="submit" class="buttonPoint" value="showProductsFromRepository">
+    <input type="submit" class="buttonPoint" value="list Products From Repository">
 </form>
-<form action="/showSaleThatDay" method="post">
-    <input type="date" placeholder="date" th:name="date">
-    <input type="submit" class="buttonPoint" value="Show product sell">
 
+    <form action="/showStats" method="post">
+    <input type="submit" class="buttonPoint" value="Show general stats for product">
+    </form>
+
+<form action="/showSaleThatDay" method="post">
+    <input type="date" placeholder="date" name="date"><br>
+    <input type="submit" class="buttonPoint" value="show Sale Chosen Day">
 </form>
-<form action="/showProductsFromRepository" method="post">
-    <input type="submit" class="buttonPoint" value="Average sell">
-</form>
-<form action="/showProductsFromRepository" method="post">
+
+    <form action="/showSaleBetween" method="post">
+        <input type="date" placeholder="date1" name="date1"><br>
+        <input type="date" placeholder="date2" name="date2"><br>
+        <input type="submit" class="buttonPoint" value="show Sale Between Chosen Days">
+    </form>
+
+<form action="/showIncome" method="post">
+    <input type="text" placeholder="productName" name="productName"><br>
     <input type="submit" class="buttonPoint" value="Show income from product">
 </form>
-<form action="/showProductsFromRepository" method="post">
-    <input type="submit" class="buttonPoint" value="Show general stats for product">
-</form>
+
 </center>
 
 </body>
